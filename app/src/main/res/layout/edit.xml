@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff6db">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#9e8847" >
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="List"
+            android:textColor="#ffffff"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="10dp"/>
+
+        <!--<TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text=""
+            android:layout_marginLeft="138dp"/>-->
+
+        <TextView
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="OK"
+            android:textColor="#ffffff"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="40dp"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/et_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
